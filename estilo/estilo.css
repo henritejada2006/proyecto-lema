@@ -1,8 +1,83 @@
-nav {
+body {
+
+header {
+    width: 100%;
+    background: linear-gradient(90deg, #e7bfa7 0%, #f3c6b7 100%);
+    box-shadow: 0 2px 12px rgba(124,63,44,0.10);
+    border-radius: 12px 12px 0 0;
+    padding: 18px 0 8px 0;
+    margin-bottom: 24px;
+}
+
+header nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
-    padding: 10px 0;
+    align-items: center;
+}
+    background: linear-gradient(120deg, #f8f5f2 0%, #f3c6b7 50%, #e7bfa7 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #3b1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+.principalIndex {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    color: #7c3f2c;
+    margin-bottom: 10px;
+}
+
+.platosDestacados {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.plato {
+    background: #f3e7e1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(124,63,44,0.08);
+    padding: 16px;
+    text-align: center;
+    width: 220px;
+    transition: box-shadow 0.3s;
+}
+.plato:hover {
+    box-shadow: 0 4px 16px rgba(124,63,44,0.18);
+}
+.plato img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.seccionRedesIndex {
+    margin: 32px 0;
+}
+.redesSociales {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-fb, .logo_rrss {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(124,63,44,0.10);
+    background: #fff;
 }
 
 .nav-list {
@@ -13,76 +88,67 @@ nav {
     padding: 0;
 }
 
-/* Estilos para los enlaces como botones */
-    /*estilos botones inactivos nav*/
 
+/* Botones nav y generales */
 .btn {
-    background: #444;
+    background: #a86c4c;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 24px;
+    border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
     display: inline-block;
+    box-shadow: 0 2px 8px rgba(124,63,44,0.08);
 }
-
 .btn:hover {
-    background: #666;
+    background: #7c3f2c;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(124,63,44,0.18);
+}
+.active {
+    background: #3b1f1f;
+    color: #f3e7e1;
+    box-shadow: 0 2px 8px rgba(124,63,44,0.18);
+}
+.active:hover {
+    background: #7c3f2c;
     color: #fff;
 }
-
-    /*estilos botones activos nav*/
-.active {
-    background: #151518;
-    color: #946868;
+.btn_no_m {
+    background: #7c3f2c;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 24px;
+    border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
     display: inline-block;
+    box-shadow: 0 2px 8px rgba(124,63,44,0.08);
+}
+.btn_no_m:hover {
+    background: #a86c4c;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(124,63,44,0.18);
 }
 
-.active:hover {
-    background: #3f3535;
-    color: #946868;
-}
-    /*estilos botones fuera del nav*/
-.btn_no_m {
+footer {
     background: #3b1f1f;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-    display: inline-block;
-}
-
-.btn_no_m:hover {
-    background: #633b3b;
-    color: #fff;
-}
-
-/* Estilos para el pie de página */
-footer {
-    background: #222;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 32px 0 16px 0;
     margin-top: 40px;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 -2px 8px rgba(124,63,44,0.08);
 }
-
 .footer-info p {
-    margin: 5px 0;
-    font-size: 1rem;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    color: #f3e7e1;
 }
 
 .logo_rrss {
