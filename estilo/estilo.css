@@ -13,21 +13,39 @@ nav {
     padding: 0;
 }
 
-.nav-list li button {
+/* Estilos para los enlaces como botones */
+.btn {
     background: #444;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
-}
-
-.nav-list li button:hover {
-    background: #666;
-}
-.nav-list li button a {
-    color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #666;
+    color: #fff;
+}
+
+.btn_no_m {
+    background: #3b1f1f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.btn_no_m:hover {
+    background: #633b3b;
+    color: #fff;
 }
