@@ -14,6 +14,8 @@ nav {
 }
 
 /* Estilos para los enlaces como botones */
+    /*estilos botones inactivos nav*/
+
 .btn {
     background: #444;
     color: #fff;
@@ -32,6 +34,23 @@ nav {
     color: #fff;
 }
 
+.active {
+    background: #151518;
+    color: #946868;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.active:hover {
+    background: #3f3535;
+    color: #946868;
+}
 .btn_no_m {
     background: #3b1f1f;
     color: #fff;
