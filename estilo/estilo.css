@@ -1,5 +1,7 @@
+/* Fondo general y tipografía */
 body {
 
+/* Estilo visual del header */
 header {
     width: 100%;
     background: linear-gradient(90deg, #e7bfa7 0%, #f3c6b7 100%);
@@ -9,6 +11,7 @@ header {
     margin-bottom: 24px;
 }
 
+/* Menú de navegación */
 header nav {
     display: flex;
     justify-content: center;
@@ -21,6 +24,7 @@ header nav {
     padding: 0;
 }
 
+/* Contenedor principal de la web */
 .principalIndex {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,12 +33,14 @@ header nav {
     padding: 24px;
 }
 
+/* Títulos principales y secundarios */
 h1, h2, h3, h4 {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
     color: #7c3f2c;
     margin-bottom: 10px;
 }
 
+/* Sección de platos destacados */
 .platosDestacados {
     display: flex;
     gap: 32px;
@@ -62,6 +68,7 @@ h1, h2, h3, h4 {
     margin-bottom: 10px;
 }
 
+/* Sección de redes sociales */
 .seccionRedesIndex {
     margin: 32px 0;
 }
@@ -90,6 +97,7 @@ h1, h2, h3, h4 {
 
 
 /* Botones nav y generales */
+/* Botones generales y del nav */
 .btn {
     background: #a86c4c;
     color: #fff;
@@ -108,6 +116,7 @@ h1, h2, h3, h4 {
     color: #fff;
     box-shadow: 0 4px 16px rgba(124,63,44,0.18);
 }
+/* Botón activo en el nav */
 .active {
     background: #3b1f1f;
     color: #f3e7e1;
@@ -117,6 +126,7 @@ h1, h2, h3, h4 {
     background: #7c3f2c;
     color: #fff;
 }
+/* Botón fuera del nav */
 .btn_no_m {
     background: #7c3f2c;
     color: #fff;
@@ -136,6 +146,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 4px 16px rgba(124,63,44,0.18);
 }
 
+/* Pie de página */
 footer {
     background: #3b1f1f;
     color: #fff;
