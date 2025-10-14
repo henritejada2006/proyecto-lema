@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.nav-list li button:hover {
+    background: #666;
+}
+.nav-list li button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
