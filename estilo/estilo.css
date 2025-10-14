@@ -34,6 +34,7 @@ nav {
     color: #fff;
 }
 
+    /*estilos botones activos nav*/
 .active {
     background: #151518;
     color: #946868;
@@ -51,6 +52,7 @@ nav {
     background: #3f3535;
     color: #946868;
 }
+    /*estilos botones fuera del nav*/
 .btn_no_m {
     background: #3b1f1f;
     color: #fff;
@@ -69,6 +71,7 @@ nav {
     color: #fff;
 }
 
+/* Estilos para el pie de página */
 footer {
     background: #222;
     color: #fff;
