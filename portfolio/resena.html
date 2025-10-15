@@ -21,14 +21,99 @@
                     <li><a class="btn" href="../portfolio/sobrenosotros.html">SOBRE NOSOTROS</a></li>
                 </ul>
         </nav>
+
     </header>
-        <main></main>
+
+
+
+        <main>
+
+             <div id="FormularioDeReseña">
+             <form action="FormularioDeReseña" method="post">
+            <fieldset> 
+            <legend>Datos personales:</legend>
+            <br>
+            <label for="name">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre.">
+             <br>
+             <br>
+             <label for="Apellidos">Apellidos:</label>
+             <input type="text" name="Apellidos" id="Apellidos" placeholder="Introcuce tus apellidos.">
+             <br>
+             <br>
+            <label for="email"> Correo:</label>
+            <input type="email" name="email" id="email" placeholder="Introduce tu correo electronico.">
+            <br><br>
+            <label for="TelPersona">Numero:</label>
+             <input type="number" name="Telefono" id="Telefono" placeholder="+34 000 000 000">
+            <br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+            <legend>Valoración:</legend>
+            <label for="Puntuanos"> Puntuanos:</label>
+            <div class="estrellas">
+            <input type="radio" id="estrellas5" name ="valoracion" value="5"><label for="estrella5">★</label>
+            <input type="radio" id="estrellas4" name ="valoracion" value="4"><label for="estrella4">★</label>
+            <input type="radio" id="estrellas3" name ="valoracion" value="3"><label for="estrella3">★</label>
+            <input type="radio" id="estrellas2" name ="valoracion" value="2"><label for="estrella2">★</label>
+            <input type="radio" id="estrellas1" name ="valoracion" value="1"><label for="estrella1">★</label>
+            </div>
+            <br><br>
+            <label for="comentario">Cuentanos más:</label>
+            <br>
+            <textarea name="texto" id="texto" cols="46" rows="4"></textarea>
+            <br><br>
+            <button type="submit" onclick="alert('Formulario enviado correctamente!!.')">Enviar Valoracion</button>
+            </form>
+            </fieldset>
+            <div>
+                <br><br>
+            <div class="gentemuyreal">
+            <fieldset>
+                <legend>Otras opiniones</legend>
+                <form>
+                    <img src="/img/User_img.webp" alt="UsuarioFoto" width="50" height="50">
+                    <strong>Maria Lopez</strong>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Excelente comida y servicio. Volveré pronto.</p>
+                    <br>
+                    <img src="/img/User_img.webp" alt="UsuarioFoto" width="50" height="50">
+                    <strong>Carlos Martinez</strong>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Muy buen ambiente y platos deliciosos.</p>
+                    <br>
+                    <img src="/img/User_img.webp" alt="UsuarioFoto" width="50" height="50">
+                    <strong>Ana Garcia</strong>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Una experiencia culinaria inolvidable.</p>
+                    <br>
+                    <img src="/img/User_img.webp" alt="UsuarioFoto" width="50" height="50">
+                    <strong>Javier Sanchez</strong>
+                    <p>⭐⭐⭐</p>
+                    <p>Buena comida, pero el servicio fue un poco lento.</p>
+                    <br>
+                    <img src="/img/User_img.webp" alt="UsuarioFoto" width="50" height="50">
+                    <strong>Laura Fernandez</strong>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Me encantó todo, desde la entrada hasta el postre.</p>
+                    <br>
+                </form>
+                </fieldset>
+            </div>
+        </main>
+
+
+
+
+        
     <footer>
         <div class="footer-info">
             <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad Imaginaria</p>
             <p><strong>Teléfono:</strong> 912 345 678</p>
             <p><strong>Correo:</strong> contacto@restaurantelema.com</p>
         </div>
+
     </footer>
     </div>
         
