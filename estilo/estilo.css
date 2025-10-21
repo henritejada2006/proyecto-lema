@@ -192,3 +192,48 @@ footer {
 .estrellas label:hover ~ label {
   color: gold;
 }
+
+/* Estilo para la sección del equipo */
+#equipo {
+    background: #f8f5f2;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(124, 63, 44, 0.1);
+    text-align: center;
+    margin: 40px 0;
+}
+
+#equipo h2 {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    color: #7c3f2c;
+    margin-bottom: 20px;
+}
+
+#equipo .miembro {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+#equipo .miembro img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(124, 63, 44, 0.1);
+    margin-bottom: 10px;
+}
+
+#equipo .miembro h3 {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    color: #3b1f1f;
+    margin-bottom: 10px;
+}
+
+#equipo .miembro p {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #5a3a2e;
+    font-size: 14px;
+    line-height: 1.5;
+}
