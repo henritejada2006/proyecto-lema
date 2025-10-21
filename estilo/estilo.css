@@ -231,13 +231,31 @@ footer {
 
 #equipo .miembro h3 {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-    color: #3b1f1f;
-    margin-bottom: 10px;
+    color: #7c3f2c;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #equipo .miembro p {
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #5a3a2e;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 10px;
+}
+
+/* Estilo para la sección "Sobre nosotros" */
+.seccionsobrenosotros {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #3b1f1f;
+    text-align: justify;
+    margin: 20px 40px;
+    background: #f8f5f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(124, 63, 44, 0.1);
 }
